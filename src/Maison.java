@@ -25,6 +25,7 @@ class Maison extends Batiment{
         this.surfaceJardin = surfaceJardin;
     }
 
+    //Méthode toString afin d'afficher une maison
     @Override
     public String toString() {
         return "Maison [nbPieces = " + nbPieces + ", surfaceJardin = " + surfaceJardin + "]";
